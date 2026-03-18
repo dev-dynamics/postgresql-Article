@@ -1,0 +1,5 @@
+Method,Name,Error,Occurrences
+GET,Stand 1: Postgres,"ConnectionRefusedError(10061, '[WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.')",1241
+GET,Stand 1: Postgres,"ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None)",238
+GET,Stand 1: Postgres,RemoteDisconnected('Remote end closed connection without response'),238
+GET,Stand 1: Postgres,HTTPError('500 Server Error: Internal Server Error for url: Stand 1: Postgres'),5954

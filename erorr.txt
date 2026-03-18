@@ -1,0 +1,853 @@
+Call stack:
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 415, in run_asgi
+Message: 'Exception in ASGI application\n'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 410, in run_asgi
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 1150, in emit
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 998, in format
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 714, in format
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\logging.py", line 98, in formatMessage
+  File "C:\Program Files\Python313\Lib\copy.py", line 88, in copy
+ImportError: sys.meta_path is None, Python is likely shutting down
+Call stack:
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 417, in run_asgi
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 445, in send_500_response
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 480, in send
+Message: '%s - "%s %s HTTP/%s" %d'
+Arguments: ('127.0.0.1:60330', 'GET', '/stand1?user_id=64938', '1.1', 500)
+Exception ignored in: <coroutine object RequestResponseCycle.run_asgi at 0x000001AB4F7C4540>
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 417, in run_asgi
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 445, in send_500_response
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 493, in send
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 1073, in write
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 886, in _fatal_error
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 898, in _force_close
+  File "C:\Program Files\Python313\Lib\asyncio\base_events.py", line 827, in call_soon
+  File "C:\Program Files\Python313\Lib\asyncio\base_events.py", line 550, in _check_closed
+RuntimeError: Event loop is closed
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 410, in run_asgi
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 1150, in emit
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 998, in format
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 714, in format
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\logging.py", line 56, in formatMessage
+  File "C:\Program Files\Python313\Lib\copy.py", line 88, in copy
+ImportError: sys.meta_path is None, Python is likely shutting down
+Call stack:
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 415, in run_asgi
+Message: 'Exception in ASGI application\n'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 410, in run_asgi
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 1150, in emit
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 998, in format
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 714, in format
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\logging.py", line 98, in formatMessage
+  File "C:\Program Files\Python313\Lib\copy.py", line 88, in copy
+ImportError: sys.meta_path is None, Python is likely shutting down
+Call stack:
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 417, in run_asgi
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 445, in send_500_response
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 480, in send
+Message: '%s - "%s %s HTTP/%s" %d'
+Arguments: ('127.0.0.1:57062', 'GET', '/stand1?user_id=88173', '1.1', 500)
+Exception ignored in: <coroutine object RequestResponseCycle.run_asgi at 0x000001AB4DEDB640>
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 417, in run_asgi
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 445, in send_500_response
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 493, in send
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 1073, in write
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 886, in _fatal_error
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 898, in _force_close
+  File "C:\Program Files\Python313\Lib\asyncio\base_events.py", line 827, in call_soon
+  File "C:\Program Files\Python313\Lib\asyncio\base_events.py", line 550, in _check_closed
+RuntimeError: Event loop is closed
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 410, in run_asgi
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 1150, in emit
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 998, in format
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 714, in format
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\logging.py", line 56, in formatMessage
+  File "C:\Program Files\Python313\Lib\copy.py", line 88, in copy
+ImportError: sys.meta_path is None, Python is likely shutting down
+Call stack:
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 415, in run_asgi
+Message: 'Exception in ASGI application\n'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 410, in run_asgi
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 1150, in emit
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 998, in format
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 714, in format
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\logging.py", line 98, in formatMessage
+  File "C:\Program Files\Python313\Lib\copy.py", line 88, in copy
+ImportError: sys.meta_path is None, Python is likely shutting down
+Call stack:
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 417, in run_asgi
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 445, in send_500_response
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 480, in send
+Message: '%s - "%s %s HTTP/%s" %d'
+Arguments: ('127.0.0.1:60401', 'GET', '/stand1?user_id=61020', '1.1', 500)
+Exception ignored in: <coroutine object RequestResponseCycle.run_asgi at 0x000001AB4DEDA740>
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 417, in run_asgi
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 445, in send_500_response
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 493, in send
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 1073, in write
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 886, in _fatal_error
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 898, in _force_close
+  File "C:\Program Files\Python313\Lib\asyncio\base_events.py", line 827, in call_soon
+  File "C:\Program Files\Python313\Lib\asyncio\base_events.py", line 550, in _check_closed
+RuntimeError: Event loop is closed
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 410, in run_asgi
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 1150, in emit
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 998, in format
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 714, in format
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\logging.py", line 56, in formatMessage
+  File "C:\Program Files\Python313\Lib\copy.py", line 88, in copy
+ImportError: sys.meta_path is None, Python is likely shutting down
+Call stack:
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 415, in run_asgi
+Message: 'Exception in ASGI application\n'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 410, in run_asgi
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 1150, in emit
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 998, in format
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 714, in format
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\logging.py", line 98, in formatMessage
+  File "C:\Program Files\Python313\Lib\copy.py", line 88, in copy
+ImportError: sys.meta_path is None, Python is likely shutting down
+Call stack:
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 417, in run_asgi
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 445, in send_500_response
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 480, in send
+Message: '%s - "%s %s HTTP/%s" %d'
+Arguments: ('127.0.0.1:57048', 'GET', '/stand1?user_id=39555', '1.1', 500)
+Exception ignored in: <coroutine object RequestResponseCycle.run_asgi at 0x000001AB4F27C540>
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 417, in run_asgi
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 445, in send_500_response
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 493, in send
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 1073, in write
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 886, in _fatal_error
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 898, in _force_close
+  File "C:\Program Files\Python313\Lib\asyncio\base_events.py", line 827, in call_soon
+  File "C:\Program Files\Python313\Lib\asyncio\base_events.py", line 550, in _check_closed
+RuntimeError: Event loop is closed
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 410, in run_asgi
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 1150, in emit
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 998, in format
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 714, in format
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\logging.py", line 56, in formatMessage
+  File "C:\Program Files\Python313\Lib\copy.py", line 88, in copy
+ImportError: sys.meta_path is None, Python is likely shutting down
+Call stack:
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 415, in run_asgi
+Message: 'Exception in ASGI application\n'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 410, in run_asgi
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 1150, in emit
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 998, in format
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 714, in format
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\logging.py", line 98, in formatMessage
+  File "C:\Program Files\Python313\Lib\copy.py", line 88, in copy
+ImportError: sys.meta_path is None, Python is likely shutting down
+Call stack:
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 417, in run_asgi
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 445, in send_500_response
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 480, in send
+Message: '%s - "%s %s HTTP/%s" %d'
+Arguments: ('127.0.0.1:60396', 'GET', '/stand1?user_id=2575', '1.1', 500)
+Exception ignored in: <coroutine object RequestResponseCycle.run_asgi at 0x000001AB4DEDA240>
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 417, in run_asgi
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 445, in send_500_response
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 493, in send
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 1073, in write
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 886, in _fatal_error
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 898, in _force_close
+  File "C:\Program Files\Python313\Lib\asyncio\base_events.py", line 827, in call_soon
+  File "C:\Program Files\Python313\Lib\asyncio\base_events.py", line 550, in _check_closed
+RuntimeError: Event loop is closed
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 410, in run_asgi
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 1150, in emit
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 998, in format
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 714, in format
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\logging.py", line 56, in formatMessage
+  File "C:\Program Files\Python313\Lib\copy.py", line 88, in copy
+ImportError: sys.meta_path is None, Python is likely shutting down
+Call stack:
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 415, in run_asgi
+Message: 'Exception in ASGI application\n'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 410, in run_asgi
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 1150, in emit
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 998, in format
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 714, in format
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\logging.py", line 98, in formatMessage
+  File "C:\Program Files\Python313\Lib\copy.py", line 88, in copy
+ImportError: sys.meta_path is None, Python is likely shutting down
+Call stack:
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 417, in run_asgi
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 445, in send_500_response
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 480, in send
+Message: '%s - "%s %s HTTP/%s" %d'
+Arguments: ('127.0.0.1:60371', 'GET', '/stand1?user_id=51806', '1.1', 500)
+Exception ignored in: <coroutine object RequestResponseCycle.run_asgi at 0x000001AB4F7C4040>
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 417, in run_asgi
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 445, in send_500_response
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 493, in send
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 1073, in write
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 886, in _fatal_error
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 898, in _force_close
+  File "C:\Program Files\Python313\Lib\asyncio\base_events.py", line 827, in call_soon
+  File "C:\Program Files\Python313\Lib\asyncio\base_events.py", line 550, in _check_closed
+RuntimeError: Event loop is closed
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 410, in run_asgi
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 1150, in emit
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 998, in format
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 714, in format
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\logging.py", line 56, in formatMessage
+  File "C:\Program Files\Python313\Lib\copy.py", line 88, in copy
+ImportError: sys.meta_path is None, Python is likely shutting down
+Call stack:
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 415, in run_asgi
+Message: 'Exception in ASGI application\n'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 410, in run_asgi
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 1150, in emit
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 998, in format
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 714, in format
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\logging.py", line 98, in formatMessage
+  File "C:\Program Files\Python313\Lib\copy.py", line 88, in copy
+ImportError: sys.meta_path is None, Python is likely shutting down
+Call stack:
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 417, in run_asgi
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 445, in send_500_response
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 480, in send
+Message: '%s - "%s %s HTTP/%s" %d'
+Arguments: ('127.0.0.1:60475', 'GET', '/stand1?user_id=55329', '1.1', 500)
+Exception ignored in: <coroutine object RequestResponseCycle.run_asgi at 0x000001AB4F27FD40>
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 417, in run_asgi
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 445, in send_500_response
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 493, in send
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 1073, in write
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 886, in _fatal_error
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 898, in _force_close
+  File "C:\Program Files\Python313\Lib\asyncio\base_events.py", line 827, in call_soon
+  File "C:\Program Files\Python313\Lib\asyncio\base_events.py", line 550, in _check_closed
+RuntimeError: Event loop is closed
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 410, in run_asgi
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 1150, in emit
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 998, in format
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 714, in format
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\logging.py", line 56, in formatMessage
+  File "C:\Program Files\Python313\Lib\copy.py", line 88, in copy
+ImportError: sys.meta_path is None, Python is likely shutting down
+Call stack:
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 415, in run_asgi
+Message: 'Exception in ASGI application\n'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 410, in run_asgi
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 1150, in emit
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 998, in format
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 714, in format
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\logging.py", line 98, in formatMessage
+  File "C:\Program Files\Python313\Lib\copy.py", line 88, in copy
+ImportError: sys.meta_path is None, Python is likely shutting down
+Call stack:
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 417, in run_asgi
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 445, in send_500_response
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 480, in send
+Message: '%s - "%s %s HTTP/%s" %d'
+Arguments: ('127.0.0.1:60443', 'GET', '/stand1?user_id=48428', '1.1', 500)
+Exception ignored in: <coroutine object RequestResponseCycle.run_asgi at 0x000001AB4F27EF40>
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 417, in run_asgi
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 445, in send_500_response
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 493, in send
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 1073, in write
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 886, in _fatal_error
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 898, in _force_close
+  File "C:\Program Files\Python313\Lib\asyncio\base_events.py", line 827, in call_soon
+  File "C:\Program Files\Python313\Lib\asyncio\base_events.py", line 550, in _check_closed
+RuntimeError: Event loop is closed
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 410, in run_asgi
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 1150, in emit
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 998, in format
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 714, in format
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\logging.py", line 56, in formatMessage
+  File "C:\Program Files\Python313\Lib\copy.py", line 88, in copy
+ImportError: sys.meta_path is None, Python is likely shutting down
+Call stack:
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 415, in run_asgi
+Message: 'Exception in ASGI application\n'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 410, in run_asgi
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 1150, in emit
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 998, in format
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 714, in format
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\logging.py", line 98, in formatMessage
+  File "C:\Program Files\Python313\Lib\copy.py", line 88, in copy
+ImportError: sys.meta_path is None, Python is likely shutting down
+Call stack:
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 417, in run_asgi
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 445, in send_500_response
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 480, in send
+Message: '%s - "%s %s HTTP/%s" %d'
+Arguments: ('127.0.0.1:60321', 'GET', '/stand1?user_id=5135', '1.1', 500)
+Exception ignored in: <coroutine object RequestResponseCycle.run_asgi at 0x000001AB4F27DF40>
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 417, in run_asgi
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 445, in send_500_response
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 493, in send
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 1073, in write
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 886, in _fatal_error
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 898, in _force_close
+  File "C:\Program Files\Python313\Lib\asyncio\base_events.py", line 827, in call_soon
+  File "C:\Program Files\Python313\Lib\asyncio\base_events.py", line 550, in _check_closed
+RuntimeError: Event loop is closed
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 410, in run_asgi
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 1150, in emit
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 998, in format
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 714, in format
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\logging.py", line 56, in formatMessage
+  File "C:\Program Files\Python313\Lib\copy.py", line 88, in copy
+ImportError: sys.meta_path is None, Python is likely shutting down
+Call stack:
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 415, in run_asgi
+Message: 'Exception in ASGI application\n'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 410, in run_asgi
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 1150, in emit
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 998, in format
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 714, in format
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\logging.py", line 98, in formatMessage
+  File "C:\Program Files\Python313\Lib\copy.py", line 88, in copy
+ImportError: sys.meta_path is None, Python is likely shutting down
+Call stack:
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 417, in run_asgi
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 445, in send_500_response
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 480, in send
+Message: '%s - "%s %s HTTP/%s" %d'
+Arguments: ('127.0.0.1:60584', 'GET', '/stand1?user_id=37255', '1.1', 500)
+Exception ignored in: <coroutine object RequestResponseCycle.run_asgi at 0x000001AB4F27F140>
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 417, in run_asgi
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 445, in send_500_response
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 493, in send
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 1073, in write
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 886, in _fatal_error
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 898, in _force_close
+  File "C:\Program Files\Python313\Lib\asyncio\base_events.py", line 827, in call_soon
+  File "C:\Program Files\Python313\Lib\asyncio\base_events.py", line 550, in _check_closed
+RuntimeError: Event loop is closed
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 410, in run_asgi
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 1150, in emit
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 998, in format
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 714, in format
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\logging.py", line 56, in formatMessage
+  File "C:\Program Files\Python313\Lib\copy.py", line 88, in copy
+ImportError: sys.meta_path is None, Python is likely shutting down
+Call stack:
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 415, in run_asgi
+Message: 'Exception in ASGI application\n'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 410, in run_asgi
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 1150, in emit
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 998, in format
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 714, in format
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\logging.py", line 98, in formatMessage
+  File "C:\Program Files\Python313\Lib\copy.py", line 88, in copy
+ImportError: sys.meta_path is None, Python is likely shutting down
+Call stack:
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 417, in run_asgi
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 445, in send_500_response
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 480, in send
+Message: '%s - "%s %s HTTP/%s" %d'
+Arguments: ('127.0.0.1:60578', 'GET', '/stand1?user_id=43159', '1.1', 500)
+Exception ignored in: <coroutine object RequestResponseCycle.run_asgi at 0x000001AB4DEDB940>
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 417, in run_asgi
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 445, in send_500_response
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 493, in send
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 1073, in write
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 886, in _fatal_error
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 898, in _force_close
+  File "C:\Program Files\Python313\Lib\asyncio\base_events.py", line 827, in call_soon
+  File "C:\Program Files\Python313\Lib\asyncio\base_events.py", line 550, in _check_closed
+RuntimeError: Event loop is closed
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 410, in run_asgi
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 1150, in emit
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 998, in format
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 714, in format
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\logging.py", line 56, in formatMessage
+  File "C:\Program Files\Python313\Lib\copy.py", line 88, in copy
+ImportError: sys.meta_path is None, Python is likely shutting down
+Call stack:
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 415, in run_asgi
+Message: 'Exception in ASGI application\n'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 410, in run_asgi
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 1150, in emit
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 998, in format
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 714, in format
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\logging.py", line 98, in formatMessage
+  File "C:\Program Files\Python313\Lib\copy.py", line 88, in copy
+ImportError: sys.meta_path is None, Python is likely shutting down
+Call stack:
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 417, in run_asgi
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 445, in send_500_response
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 480, in send
+Message: '%s - "%s %s HTTP/%s" %d'
+Arguments: ('127.0.0.1:56899', 'GET', '/stand1?user_id=14215', '1.1', 500)
+Exception ignored in: <coroutine object RequestResponseCycle.run_asgi at 0x000001AB4F27D540>
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 417, in run_asgi
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 445, in send_500_response
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 493, in send
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 1073, in write
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 886, in _fatal_error
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 898, in _force_close
+  File "C:\Program Files\Python313\Lib\asyncio\base_events.py", line 827, in call_soon
+  File "C:\Program Files\Python313\Lib\asyncio\base_events.py", line 550, in _check_closed
+RuntimeError: Event loop is closed
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 410, in run_asgi
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 1150, in emit
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 998, in format
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 714, in format
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\logging.py", line 56, in formatMessage
+  File "C:\Program Files\Python313\Lib\copy.py", line 88, in copy
+ImportError: sys.meta_path is None, Python is likely shutting down
+Call stack:
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 415, in run_asgi
+Message: 'Exception in ASGI application\n'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 410, in run_asgi
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 1150, in emit
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 998, in format
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 714, in format
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\logging.py", line 98, in formatMessage
+  File "C:\Program Files\Python313\Lib\copy.py", line 88, in copy
+ImportError: sys.meta_path is None, Python is likely shutting down
+Call stack:
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 417, in run_asgi
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 445, in send_500_response
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 480, in send
+Message: '%s - "%s %s HTTP/%s" %d'
+Arguments: ('127.0.0.1:60339', 'GET', '/stand1?user_id=39437', '1.1', 500)
+Exception ignored in: <coroutine object RequestResponseCycle.run_asgi at 0x000001AB4DEDAE40>
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 417, in run_asgi
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 445, in send_500_response
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 493, in send
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 1073, in write
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 886, in _fatal_error
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 898, in _force_close
+  File "C:\Program Files\Python313\Lib\asyncio\base_events.py", line 827, in call_soon
+  File "C:\Program Files\Python313\Lib\asyncio\base_events.py", line 550, in _check_closed
+RuntimeError: Event loop is closed
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 410, in run_asgi
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 1150, in emit
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 998, in format
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 714, in format
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\logging.py", line 56, in formatMessage
+  File "C:\Program Files\Python313\Lib\copy.py", line 88, in copy
+ImportError: sys.meta_path is None, Python is likely shutting down
+Call stack:
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 415, in run_asgi
+Message: 'Exception in ASGI application\n'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 410, in run_asgi
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 1150, in emit
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 998, in format
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 714, in format
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\logging.py", line 98, in formatMessage
+  File "C:\Program Files\Python313\Lib\copy.py", line 88, in copy
+ImportError: sys.meta_path is None, Python is likely shutting down
+Call stack:
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 417, in run_asgi
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 445, in send_500_response
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 480, in send
+Message: '%s - "%s %s HTTP/%s" %d'
+Arguments: ('127.0.0.1:60271', 'GET', '/stand1?user_id=8077', '1.1', 500)
+Exception ignored in: <coroutine object RequestResponseCycle.run_asgi at 0x000001AB4F27D940>
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 417, in run_asgi
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 445, in send_500_response
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 493, in send
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 1073, in write
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 886, in _fatal_error
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 898, in _force_close
+  File "C:\Program Files\Python313\Lib\asyncio\base_events.py", line 827, in call_soon
+  File "C:\Program Files\Python313\Lib\asyncio\base_events.py", line 550, in _check_closed
+RuntimeError: Event loop is closed
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 410, in run_asgi
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 1150, in emit
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 998, in format
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 714, in format
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\logging.py", line 56, in formatMessage
+  File "C:\Program Files\Python313\Lib\copy.py", line 88, in copy
+ImportError: sys.meta_path is None, Python is likely shutting down
+Call stack:
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 415, in run_asgi
+Message: 'Exception in ASGI application\n'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 410, in run_asgi
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 1150, in emit
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 998, in format
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 714, in format
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\logging.py", line 98, in formatMessage
+  File "C:\Program Files\Python313\Lib\copy.py", line 88, in copy
+ImportError: sys.meta_path is None, Python is likely shutting down
+Call stack:
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 417, in run_asgi
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 445, in send_500_response
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 480, in send
+Message: '%s - "%s %s HTTP/%s" %d'
+Arguments: ('127.0.0.1:60429', 'GET', '/stand1?user_id=45585', '1.1', 500)
+Exception ignored in: <coroutine object RequestResponseCycle.run_asgi at 0x000001AB4F27D840>
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 417, in run_asgi
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 445, in send_500_response
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 493, in send
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 1073, in write
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 886, in _fatal_error
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 898, in _force_close
+  File "C:\Program Files\Python313\Lib\asyncio\base_events.py", line 827, in call_soon
+  File "C:\Program Files\Python313\Lib\asyncio\base_events.py", line 550, in _check_closed
+RuntimeError: Event loop is closed
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 410, in run_asgi
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 1150, in emit
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 998, in format
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 714, in format
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\logging.py", line 56, in formatMessage
+  File "C:\Program Files\Python313\Lib\copy.py", line 88, in copy
+ImportError: sys.meta_path is None, Python is likely shutting down
+Call stack:
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 415, in run_asgi
+Message: 'Exception in ASGI application\n'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 410, in run_asgi
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 1150, in emit
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 998, in format
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 714, in format
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\logging.py", line 98, in formatMessage
+  File "C:\Program Files\Python313\Lib\copy.py", line 88, in copy
+ImportError: sys.meta_path is None, Python is likely shutting down
+Call stack:
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 417, in run_asgi
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 445, in send_500_response
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 480, in send
+Message: '%s - "%s %s HTTP/%s" %d'
+Arguments: ('127.0.0.1:60479', 'GET', '/stand1?user_id=4660', '1.1', 500)
+Exception ignored in: <coroutine object RequestResponseCycle.run_asgi at 0x000001AB4F27CD40>
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 417, in run_asgi
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 445, in send_500_response
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 493, in send
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 1073, in write
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 886, in _fatal_error
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 898, in _force_close
+  File "C:\Program Files\Python313\Lib\asyncio\base_events.py", line 827, in call_soon
+  File "C:\Program Files\Python313\Lib\asyncio\base_events.py", line 550, in _check_closed
+RuntimeError: Event loop is closed
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 410, in run_asgi
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 1150, in emit
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 998, in format
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 714, in format
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\logging.py", line 56, in formatMessage
+  File "C:\Program Files\Python313\Lib\copy.py", line 88, in copy
+ImportError: sys.meta_path is None, Python is likely shutting down
+Call stack:
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 415, in run_asgi
+Message: 'Exception in ASGI application\n'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 410, in run_asgi
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 1150, in emit
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 998, in format
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 714, in format
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\logging.py", line 98, in formatMessage
+  File "C:\Program Files\Python313\Lib\copy.py", line 88, in copy
+ImportError: sys.meta_path is None, Python is likely shutting down
+Call stack:
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 417, in run_asgi
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 445, in send_500_response
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 480, in send
+Message: '%s - "%s %s HTTP/%s" %d'
+Arguments: ('127.0.0.1:60423', 'GET', '/stand1?user_id=85673', '1.1', 500)
+Exception ignored in: <coroutine object RequestResponseCycle.run_asgi at 0x000001AB4F7C4140>
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 417, in run_asgi
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 445, in send_500_response
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\protocols\http\h11_impl.py", line 493, in send
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 1073, in write
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 886, in _fatal_error
+  File "C:\Program Files\Python313\Lib\asyncio\selector_events.py", line 898, in _force_close
+  File "C:\Program Files\Python313\Lib\asyncio\base_events.py", line 827, in call_soon
+  File "C:\Program Files\Python313\Lib\asyncio\base_events.py", line 550, in _check_closed
+RuntimeError: Event loop is closed
+Task was destroyed but it is pending!
+task: <Task cancelling name='Task-9347' coro=<BaseSelectorEventLoop._accept_connection2() running at C:\Program Files\Python313\Lib\asyncio\selector_events.py:213> cb=[gather.<locals>._done_callback() at C:\Program Files\Python313\Lib\asyncio\tasks.py:820]>
+Task was destroyed but it is pending!
+task: <Task cancelling name='Task-9346' coro=<BaseSelectorEventLoop._accept_connection2() running at C:\Program Files\Python313\Lib\asyncio\selector_events.py:213> cb=[gather.<locals>._done_callback() at C:\Program Files\Python313\Lib\asyncio\tasks.py:820]>
+Task was destroyed but it is pending!
+task: <Task cancelling name='Task-9345' coro=<BaseSelectorEventLoop._accept_connection2() running at C:\Program Files\Python313\Lib\asyncio\selector_events.py:235> wait_for=<Future cancelled> cb=[gather.<locals>._done_callback() at C:\Program Files\Python313\Lib\asyncio\tasks.py:820]>
+Task was destroyed but it is pending!
+task: <Task cancelling name='Task-2' coro=<LifespanOn.main() running at C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\lifespan\on.py:86> wait_for=<Future cancelled> cb=[gather.<locals>._done_callback() at C:\Program Files\Python313\Lib\asyncio\tasks.py:820]>
+Task was destroyed but it is pending!
+task: <Task cancelling name='Task-9344' coro=<BaseSelectorEventLoop._accept_connection2() running at C:\Program Files\Python313\Lib\asyncio\selector_events.py:235> wait_for=<Future finished result=None> cb=[gather.<locals>._done_callback() at C:\Program Files\Python313\Lib\asyncio\tasks.py:820]>
+Task was destroyed but it is pending!
+task: <Task cancelling name='Task-9343' coro=<BaseSelectorEventLoop._accept_connection2() running at C:\Program Files\Python313\Lib\asyncio\selector_events.py:235> wait_for=<Future finished result=None> cb=[gather.<locals>._done_callback() at C:\Program Files\Python313\Lib\asyncio\tasks.py:820]>
+Task was destroyed but it is pending!
+task: <Task cancelling name='Task-1' coro=<Server.serve() running at C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\server.py:79> wait_for=<Future cancelled> cb=[gather.<locals>._done_callback() at C:\Program Files\Python313\Lib\asyncio\tasks.py:820]>
+<sys>:0: RuntimeWarning: coroutine 'BaseSelectorEventLoop._accept_connection2' was never awaited
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\starlette\routing.py", line 701, in lifespan  
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 1150, in emit
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 998, in format
+  File "C:\Program Files\Python313\Lib\logging\__init__.py", line 714, in format
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\logging.py", line 56, in formatMessage
+  File "C:\Program Files\Python313\Lib\copy.py", line 88, in copy
+ImportError: sys.meta_path is None, Python is likely shutting down
+Call stack:
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\starlette\routing.py", line 705, in lifespan  
+  File "C:\Users\Kirill\AppData\Roaming\Python\Python313\site-packages\uvicorn\lifespan\on.py", line 134, in send    
+Message: 'Traceback (most recent call last):\n  File "C:\\Users\\Kirill\\AppData\\Roaming\\Python\\Python313\\site-packages\\starlette\\routing.py", line 701, in lifespan\nGeneratorExit\n'
+Arguments: ()
