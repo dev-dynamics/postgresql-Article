@@ -25,12 +25,15 @@ sudo apt install postgresql redis-server python3-pip
 2. Настройка базы данных
 Bash
 # Вход в Postgres
-sudo -u postgres psql
+```sudo -u postgres psql
+```
 
 # Выполнение SQL команд
+```sql
 CREATE DATABASE kino;
 CREATE USER postgres WITH PASSWORD 'root';
 ALTER ROLE postgres WITH SUPERUSER;
+```
 
 
 3. Настройка прав доступа (pg_hba.conf)
@@ -50,14 +53,14 @@ python3 app.py
 
 Установите PostgreSQL и Redis for Windows.
 
-Установите зависимости: pip install -r requirements.txt.
+Установите зависимости: ```pip install -r requirements.txt```
 
 Убедитесь, что в коде включен фикс для Windows:
 
-Python
+```Python
 if sys.platform == 'win32':
     asyncio.set_event_loop_policy(asyncio.WindowsProactorEventLoopPolicy())
-
+```
 
 📊 Методология тестирования
 Тестирование проводилось с помощью Locust при следующих параметрах:
